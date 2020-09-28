@@ -7,11 +7,19 @@
 
 import Foundation
 
-let bmw = objects()
+let bmw = Objects()
 
-let motor = objects(nameInit: "racing", yearInit: 2014, modelInit: "zx10r", typeInit: .Kawasaki)
+let motor = Objects(nameInit: "racing", yearInit: 2014, modelInit: "zx10r", typeInit: .Kawasaki)
+
+let supermotor = SuperObjects(nameInit: "racing", yearInit: 2015, modelInit: "h2", typeInit: .Kawasaki)
+
+
 print(bmw.model)
 print(motor.type)
+motor.race()
+print(supermotor.model)
+supermotor.race()
+//supermotor.race2()
 
 
 

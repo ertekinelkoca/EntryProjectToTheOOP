@@ -8,7 +8,7 @@
 import Foundation
 
 
-class objects{
+class Objects{
     
     enum ObjectType {
         case BMW
@@ -38,6 +38,10 @@ class objects{
         year = yearInit
         model = modelInit
         type = typeInit
+    }
+    
+    func race(){
+        print("race")
     }
 
 }
